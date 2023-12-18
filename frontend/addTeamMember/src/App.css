@@ -40,7 +40,10 @@ main::-webkit-scrollbar-track {
   min-height: 5dvh;
   /* border: 1px solid red; */
 }
-
+.sub-heading {
+  color: #cac1c1;
+  margin-top: 0.5rem;
+}
 .button-container .corner-button {
   position: absolute;
   top: 0;

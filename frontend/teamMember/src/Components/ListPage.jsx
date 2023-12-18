@@ -95,7 +95,11 @@ export default function IndexPage() {
             {loading ? (
               <></>
             ) : (
-              <Typography variant="subtitle1" gutterBottom>
+              <Typography
+                className="sub-heading"
+                variant="subtitle1"
+                gutterBottom
+              >
                 You Have {totalTeamMembers} Members
               </Typography>
             )}

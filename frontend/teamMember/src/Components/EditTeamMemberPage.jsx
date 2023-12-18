@@ -124,7 +124,7 @@ export default function EditTeamMemberPage() {
       <div className="page-container">
         <div className="upper-container-add-team">
           <Typography variant="h4">Edit Team Member</Typography>
-          <Typography variant="subtitle1" gutterBottom>
+          <Typography className="sub-heading" variant="subtitle1" gutterBottom>
             Edit contact info, location and role
           </Typography>
         </div>

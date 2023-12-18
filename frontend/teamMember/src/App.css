@@ -111,6 +111,11 @@ main::-webkit-scrollbar-track {
   border-radius: 8%;
   margin-top: 0.5rem;
 }
+
+.sub-heading {
+  color: #cac1c1;
+  margin-top: 0.5rem;
+}
 .add-member-form {
   margin: 1rem 0;
   padding: 1rem 0;
