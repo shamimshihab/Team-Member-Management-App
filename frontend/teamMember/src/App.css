@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+  margin: 0 auto;
+  height: 100dvh;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(37, 123, 145) rgb(18, 158, 252);
+}
+
+main::-webkit-scrollbar {
+  width: 0px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 0px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
+
+main::-webkit-scrollbar-track {
+  background-color: lightgray;
+}
+
+.button-container {
+  position: relative;
+  min-height: 5dvh;
+  /* border: 1px solid red; */
+}
+
+.button-container .corner-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(30, 135, 233);
+  font-size: 2.5rem;
+  margin: 10px;
+  /* border: 1px solid red; */
+}
+
+.image-style {
+  width: 90px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.page-container {
+  max-width: 800px;
+  padding: 3rem;
+  margin: 0 auto;
+  min-height: 100dvh;
+  /* border: 1px solid red; */
+}
+
+.upper-container {
+  min-height: 10dvh;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  /* border: 1px solid red; */
+}
+.upper-container-add-team {
+  min-height: 10dvh;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  box-shadow: 0px 8px 15px rgba(145, 143, 143, 0.1);
+}
+.team-member-details {
+  color: #cac1c1;
+}
+.single-team-member-container {
+  height: 17dvh;
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  box-shadow: 0px 8px 15px rgba(145, 143, 143, 0.1),
+    0px -8px 15px rgba(145, 143, 143, 0.1);
+}
+.role-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 0;
+  box-shadow: 0px 8px 15px rgba(145, 143, 143, 0.1),
+    0px -8px 15px rgba(145, 143, 143, 0.1);
+  padding: 2px 2px;
+}
+.button {
+  text-transform: none;
+  background-color: rgb(35, 106, 238);
+  color: white;
+  width: 80px;
+  height: 35px;
+  border-radius: 8%;
+  margin-top: 0.5rem;
+}
+.add-member-form {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+.button-group-edit-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+.button-delete {
+  text-transform: none;
+  background-color: inherit;
+  color: rgb(238, 22, 22);
+  width: 80px;
+  height: 35px;
+  border-color: rgb(227, 235, 235);
+  border-radius: 8%;
+  margin-top: 0.5rem;
+}
